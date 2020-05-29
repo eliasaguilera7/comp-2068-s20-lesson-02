@@ -1,3 +1,3 @@
-// Blocking
-
-// Non-Blocking
+// Blocking (sync)
+ 
+// Non-Blocking (async)
