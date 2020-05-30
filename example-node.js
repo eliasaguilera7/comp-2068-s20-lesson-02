@@ -7,12 +7,13 @@ app.get('/',(request, response)=> {
        resp.on('data', chunk => {
            response.send(`
            <http>
-           <head><title>Oh Snap</title>
-           <h1>OH SNAP!</h1>
+           <head><title>Insult app</title>
+           <body>
+           <h1>Welcome to the insult app!</h1>
            <p style="font-size:24px; color:red">
             ${chunk.toString()}!
            </p>
-           <body></body>
+           </body>
            </http>
            `)
        })
