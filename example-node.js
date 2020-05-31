@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const https = require('https');
+const randomPic = random.int(min = 0, max = 10)
 
 app.get('/',(request, response)=> {
    https.get('https://insult.mattbas.org/api/insult', resp =>{
@@ -13,6 +14,7 @@ app.get('/',(request, response)=> {
            <p style="font-size:24px; color:red">
             ${chunk.toString()}!
            </p>
+           <img src="./images/bean${randomPic}.jpg" alt="Girl in a jacket" width="500" height="600">
            </body>
            </http>
            `)

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/eliasaguilera7/comp-2068-s20-lesson-02#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "random": "^2.2.0"
   }
 }
