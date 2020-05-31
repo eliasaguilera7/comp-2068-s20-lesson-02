@@ -14,7 +14,7 @@ app.get('/',(request, response)=> {
            <p style="font-size:24px; color:red">
             ${chunk.toString()}!
            </p>
-           <img src="./images/bean${randomPic}.jpg" alt="Girl in a jacket" width="500" height="600">
+           <img src="./images/bean1.jpg" alt="Girl in a jacket" width="500" height="600">
            </body>
            </http>
            `)
