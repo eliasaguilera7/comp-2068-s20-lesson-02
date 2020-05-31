@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 const https = require('https');
-const randomPic = random.int(min = 0, max = 10)
+//const ran = require('random');
+//const randomPic = random.int(min = 0, max = 10)
 
 app.get('/',(request, response)=> {
    https.get('https://insult.mattbas.org/api/insult', resp =>{
